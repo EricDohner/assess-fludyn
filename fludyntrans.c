@@ -62,7 +62,7 @@ int main(void){
         
             
         
-        if(i > 25 && i < 125){
+        if(i > 50 && i < 151){
             rho[i] = rho0i;
             vel[i] = v0;
         

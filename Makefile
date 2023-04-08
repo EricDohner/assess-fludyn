@@ -5,3 +5,6 @@ make: $(FCT)
 
 makeFCT:
 	gcc -c flux_corrected_transport.c
+	
+run:
+	./fludyntrans.exe && gnuplot plot_fludyn.p
