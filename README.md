@@ -5,6 +5,8 @@ I adapted the operator splitting method from Boris and Book 1971 to use the FCT 
 
 Before you start: Make sure there's a subdirectory in assess_fludyn called "outdat." This code naturally requires flux_corrected_transport.c and flux_corrected_transport.h, which are included for ease of use. Those two are not my own work, of course.
 
+While the initial conditions are hardcoded in fludyntrans.c, this could easily be changed to read them from a file. This has not yet been implemented.
+
 "Make" compiles everything.
 
 "Make run" runs the program and uses gnuplot to create the animation.
